@@ -1,0 +1,27 @@
+{
+  "name": "transport",
+  "version": "1.0.0",
+  "description": "transport",
+  "main": "index.js",
+  "scripts": {
+    "ui": "parcel watch src/index.html",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianfrank/transport.git"
+  },
+  "author": "JF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianfrank/transport/issues"
+  },
+  "homepage": "https://github.com/julianfrank/transport#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.12.4"
+  }
+}
